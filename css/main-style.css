@@ -1,0 +1,210 @@
+@media screen and (min-width: 921px) {
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    height: 100%;
+    box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.html {
+	box-sizing: border-box;
+}
+
+*, *::after, *::before {
+	box-sizing: inherit;
+}
+
+
+.header{
+    max-width: 100%;
+}
+.header__wrapper{
+    height: 110px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(132,132,157,1) 32%, rgba(63,74,77,1) 100%);  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mobile__logo{
+    display: none;
+}
+.link__header{
+    margin-top: 50px;
+}
+.header__item:hover, .more:hover, .more__aside:hover{
+    opacity: .8;
+}
+
+.porsche__logo{
+    margin-left: 20px;
+    z-index: 1;
+    max-width: 100%;
+}
+
+.header__item{
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 253, 30);
+}
+
+.main__wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    min-height: 100% ;
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap; 
+    flex: 1 1 auto;
+    width: 100%;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+}
+.main__item__wrapper{
+    width: 70%;
+    padding-left: 10px;
+}
+.main__item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 90%;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    color: rgb(223, 213, 213);
+    background: url(../img/back.jfif) no-repeat;
+    background-size: cover;
+}
+.car__name{
+    margin: 5px auto;
+}
+.porsche{
+    float: left;
+}
+.desk__text{
+    text-align: justify;
+    padding: 10px 15px;
+    font-size: 18px;
+    display: inline;
+}
+
+.more{
+    text-decoration: none;
+    color: rgb(22, 221, 181);
+    margin-left: auto;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.concept__img{
+    max-width: 300px;
+    height: auto;
+}
+.aside{
+    margin-top: 10px;
+    max-width: 400px;
+    padding-right: 20px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+.concept__item{
+    position: relative;
+    margin: 0 auto 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.more__aside{
+    text-decoration: none;
+    color: rgb(221, 22, 22);
+    margin: 10px 0 10px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.footer{
+    min-width: 100%;
+    background: rgb(167, 167, 167);
+    position: relative;
+}
+
+.contacts{
+    height: 200px;
+    width: 450px;
+    margin: 30px 0 0 500px;
+    color: #000;
+    display: flex;
+    margin-bottom: 70px;
+}
+.table1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-right: 40px;
+}
+.table__item{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+.table__item:hover{
+    color: chartreuse;
+}
+.footer__logo{
+    display: block;
+    position: absolute;
+    margin-left: 100px;
+}
+
+}
